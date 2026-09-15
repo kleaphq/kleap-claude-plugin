@@ -1,0 +1,16 @@
+{
+  "name": "kleap",
+  "description": "Official Kleap plugin for Claude Code — build, edit, publish, and grow websites and web apps.",
+  "owner": {
+    "name": "Kleap Technologies SA",
+    "url": "https://kleap.co"
+  },
+  "plugins": [
+    {
+      "name": "kleap",
+      "source": "./",
+      "description": "Build, edit, publish, and grow websites and web apps from Claude Code through Kleap's hosted MCP server."
+      ,"repository": "https://github.com/kleaphq/kleap-claude-plugin"
+    }
+  ]
+}
