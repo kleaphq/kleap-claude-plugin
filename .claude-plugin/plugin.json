@@ -2,12 +2,16 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "kleap",
   "description": "Build, edit, publish, and grow websites and web apps from Claude Code. Bundles Kleap's hosted MCP server with focused, review-first workflows.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Kleap Technologies SA",
     "url": "https://kleap.co"
   },
   "homepage": "https://kleap.co/mcp",
+  "icon": "./logo.png",
+  "documentationUrl": "https://kleap.co/mcp",
+  "supportUrl": "https://kleap.co/support",
+  "privacyPolicyUrl": "https://kleap.co/privacy-policy",
   "repository": "https://github.com/kleaphq/kleap-claude-plugin",
   "license": "Apache-2.0",
   "keywords": [
