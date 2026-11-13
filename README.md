@@ -11,8 +11,10 @@ The plugin bundles the remote MCP connection and three focused commands:
 ## MCP endpoint
 
 ```text
-https://kleap.co/api/mcp
+https://kleap.co/api/mcp/claude
 ```
+
+This is Kleap's Claude directory endpoint. It serves the same projects and account as `https://kleap.co/api/mcp`, without the tools the directory does not accept: no payment links (domain purchase, plan upgrade), no AI image generation and no free-form SQL.
 
 Transport: Streamable HTTP. Authentication uses Kleap OAuth in the user's browser; no API key needs to be copied into the plugin.
 
@@ -53,13 +55,14 @@ This is the public source package submitted for review in Anthropic's Claude plu
 ## What the MCP server provides
 
 - Create, inspect, and edit websites and web apps
-- Write, read, rename, and remove project files
+- Read, write, edit, and remove project files, and rename projects
 - Publish to Kleap hosting and verify deployment
 - Connect domains the user already owns
 - Capture site screenshots
 - Read traffic analytics, Google Search Console data, and form submissions
+- Read and change rows in a site's own database with typed tools (query, insert, update, delete)
 
-`search_domains` checks availability only. The connector does not purchase domains or transfer money.
+`search_domains` checks availability only. The connector does not purchase domains, start a subscription, or transfer money.
 
 ## Documentation and support
 

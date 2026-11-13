@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "kleap",
   "description": "Build, edit, publish, and grow websites and web apps from Claude Code. Bundles Kleap's hosted MCP server with focused, review-first workflows.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Kleap Technologies SA",
     "url": "https://kleap.co"

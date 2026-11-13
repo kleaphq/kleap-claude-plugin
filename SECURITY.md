@@ -1,6 +1,6 @@
 # Security Policy
 
-The Kleap plugin connects Claude Code to the hosted MCP endpoint at `https://kleap.co/api/mcp`. Authentication uses Kleap OAuth and the server can read and modify projects within the permissions granted by the connected user.
+The Kleap plugin connects Claude Code to the hosted MCP endpoint at `https://kleap.co/api/mcp/claude`. Authentication uses Kleap OAuth and the server can read and modify projects within the permissions granted by the connected user.
 
 ## Report a vulnerability
 
@@ -17,4 +17,4 @@ Please allow a reasonable remediation window before public disclosure.
 
 ## Scope
 
-This package covers the Claude Code plugin configuration and its connection to `https://kleap.co/api/mcp`. Product support is available through https://help.kleap.co/en/.
+This package covers the Claude Code plugin configuration and its connection to `https://kleap.co/api/mcp/claude`. Product support is available through https://help.kleap.co/en/.
